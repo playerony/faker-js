@@ -1,14 +1,8 @@
-function generateEmail() {
-  const chars = "abcdefghijklmnopqrstuvwxyz";
-  return (
-    chars[Math.floor(Math.random() * 26)] +
-    Math.random()
-      .toString(36)
-      .substring(2, 11) +
-    "@domain.com"
-  );
-}
+const helper = require("../helpers/internetHelper").helper;
 
 exports.internet = {
-  email: () => generateEmail()
+  email: () => helper.generateEmail(),
+  mac: () => helper.generateMacAddress(),
+  ipv4: () => helper.generateIPAddress(),
+  ipv6: () => helper.generateIPv6Address()
 };
