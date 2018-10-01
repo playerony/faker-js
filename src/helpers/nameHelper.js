@@ -1,4 +1,4 @@
-const names = require("../names").names;
+const names = require("../utils/names").names;
 
 function capFirst(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
