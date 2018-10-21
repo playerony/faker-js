@@ -1,3 +1,3 @@
 const faker = require("./faker").faker;
 
-console.log(faker.name.firstName());
+console.log(faker.date.future());
