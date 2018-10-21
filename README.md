@@ -18,19 +18,24 @@ date:
 - past
 - future
 - recent
+###
 phone:
 - phoneNumber
+###
 name:
 - firstName
 - lastName
 - fullName
+###
 internet:
 - email
 - mac
 - ipv4
 - ipv6
+###
 type:
 - number
 - string
 - boolean
+###
 
